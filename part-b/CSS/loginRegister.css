@@ -1,0 +1,54 @@
+table {
+	width: 100%
+}
+
+.pay {
+	width: 60vw; 
+	height: 10vh;
+	border: 0.5vh solid #82B590;
+	border-radius: 10vh;
+	font-size: inherit
+}
+
+.pay:hover {
+	transform: scale(1.1,1.1);
+	transition: 0.2s ease;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #82B590;
+}
+
+
+#registerTable input {
+	width: 95%;
+	height: 7vh;
+	border-radius: 7vh;
+	border: 0;
+	outline: 0;
+	padding: 0.5rem 0;
+	border-bottom: 2px solid #d3d3d3;
+	box-shadow: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+#registerTable input:focus {
+	border-color: #82B590;
+	transform: scale(1.1,1.1);
+	transition: 0.2s ease;
+	font-size: 3vh;
+}
+
+#register {
+	width: 60vw; 
+	height: 10vh;
+	border: 0.5vh solid #82B590;
+	border-radius: 10vh;
+	font-size: inherit;
+}
+
+#register:hover {
+	transform: scale(1.1,1.1);
+	transition: 0.2s ease;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #82B590;
+}

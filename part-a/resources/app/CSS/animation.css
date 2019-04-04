@@ -1,0 +1,14 @@
+.a-loginBtn{
+	box-shadow: inset 0px 0px 0px 0px #2c2f33;
+	transition: box-shadow 0.2s, border 0.2s, color 0.2s, background 0.2s;
+	background: linear-gradient(
+	 #2c2f33, #2c2f33 50%, #82B590 50%, #82B590
+	);
+	background-size: 105% 205%;
+}
+
+.a-loginBtn:hover{
+	color:white;
+	background-position: 101% 101%;
+	text-align: center;
+}

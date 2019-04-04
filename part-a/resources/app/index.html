@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dishcourt</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animation.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<script type="text/javascript" src="JS/Validation.js"></script>
+	<script type="text/javascript" src="JS/closemaxmin.js"></script>
+	<script type="text/javascript" src="JS/someFunction.js"></script>
+	<script>resize(400,500);</script>
+</head>
+<body class="bg-col"><script>resize(400,500);</script>
+<div style="width: 250px; margin: 50px auto auto auto ; text-align: center;" class="employeeLogin">
+<div class="animated slideInDown" id="login-logo"><img src="ImagesRepo/logo1.png"></div>
+<form class="animated delay-half fadeIn" method="post" action="http://localhost/MealDebitPartA/PHPScript/login-action.php" id="login-form">
+<div class="employeeLogin">
+	<input type="text" name="employeeID" id="employeeID" style="letter-spacing: normal; text-align: left;" class="employeeLoginBox a-loginBox" onfocus="this.placeholder = ''" maxlength="12" required/>
+	<label for="employeeID" style="text-align: left;">Employee ID:</label>
+</div>
+<div class="employeeLogin">
+	<input type="password" name="employeePW" id="employeePW" class="employeeLoginBox a-loginBox" onfocus="this.placeholder = ''" maxlength="6" onkeypress="return isNumberKey(event); limit(this)" required/>
+	<label for="employeePW" style="text-align: left;">PIN:</label>
+</div>
+<input type="submit" name="login" style="margin-left: auto; margin-right: auto;" class="employeeBtn a-loginBtn" value="Sign In">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>jQuery Selector</title>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+      <script>
+         $(document).ready(function() {
+            $("#submit").click(function(){      
+              $("#myselection option:selected").text();
+                alert( $("#myselection option:selected").text() );
+              });
+         });
+   </script>
+   </head>
+   
+   <body>
+      <div>
+
+        <p>The selected value:</p>
+        <select id="myselection">
+          <option value="1">First</option>
+          <option value="2">Second</option>
+        </select>
+        <button id="submit">Result</button>
+
+      </div>
+   </body>
+</html>    

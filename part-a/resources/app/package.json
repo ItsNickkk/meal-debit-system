@@ -1,0 +1,16 @@
+{
+	"name": "MealDebitSystem",
+	"version": "0.0.1",
+	"main": "main.js",
+	"devDependencies": {
+		"electron": "^4.0.4",
+		"electron-packager": "^13.1.1"
+	},
+	"scripts": {
+		"start": "electron ."
+	},
+	"dependencies": {
+		"jquery-modal": "^0.9.2",
+		"mysql": "^2.16.0"
+	}
+}

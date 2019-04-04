@@ -1,0 +1,27 @@
+#balance {
+	display: table;
+	margin: auto;
+	text-align: center;
+	border: thin;
+}
+
+
+#value {
+	margin:5vw;
+	display: inline-block;
+}
+
+
+#pay {
+	width: 60vw; 
+	height: 10vh;
+	border: 0.5vh solid #82B590;
+	border-radius: 10vh;
+}
+
+#pay:hover {
+	transform: scale(1.1,1.1);
+	transition: 0.2s ease;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #82B590;
+}

@@ -1,0 +1,41 @@
+/*
+Color Scheme
+Green: #82B590;
+Background Grey: #2c2f33;
+Light Grey: #99aab5;
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html *{
+    font-family: 'Poppins', sans-serif;
+	box-sizing:border-box;
+	border: 0px solid red;
+}
+
+body {
+	margin: 0;
+	background-image: url(images/background/spring.png);
+	font-family: 'Yu Gothic'; font-size: 22px;
+	width: 100vw;
+	/*background: #99aab5;*/
+	background: url(../resources/white-waves.png)
+}
+
+/*
+input, button{
+    outline: none;
+}
+*/
+
+.center {
+	display: table;
+	margin: auto;
+	width: 100vw;
+	text-align: center;
+}
+
+#qrcode img {
+	display: table;
+	margin: auto;
+	width: 50%;
+}
