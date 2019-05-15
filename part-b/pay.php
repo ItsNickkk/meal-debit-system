@@ -20,7 +20,7 @@
 		
 	<table id="registerTable" cellpadding="10vh">
 		<tr>
-			<td><label for="amount">Amount</label><br><input type="text" name="amount" required></td>
+			<td><label for="amount">Amount</label><br><input type="number" name="amount" id="amount" required min="1" title="Why are you reloading something weird?"></td>
 		</tr>
 		<tr>
 			<td><button id="register">Confirm</button></td>

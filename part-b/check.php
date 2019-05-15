@@ -14,7 +14,7 @@
 		border :5px solid #82B590; 
 	}
 	
-	td.vaildStatus0 {
+	td.validStatus0 {
 		border :5px solid #ff0000; 
 	}
 

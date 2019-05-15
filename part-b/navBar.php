@@ -66,17 +66,18 @@
 			return isNaN(str);
 		}
 		
-		var path = window.location.pathname;
 		
-		if(path == '/meal-debit-system/pay.php'){
+		var path = window.location.pathname.split("/")[3];
+		
+		if(path == 'pay.php'){
 			document.getElementById("navPay").id = 'active';
-		} else if (path == '/meal-debit-system/reload.php' || path == '/meal-debit-system/reloadDone.php') {
+		} else if (path == 'reload.php' || path == 'reloadDone.php') {
 			document.getElementById("navReload").id = 'active';
-		} else if (path == '/meal-debit-system/check.php') {
+		} else if (path == 'check.php') {
 			document.getElementById("navCheck").id = 'active';
-		} else if (path == '/meal-debit-system/account.php') {
+		} else if (path == 'account.php') {
 			document.getElementById("navAcc").id = 'active';
-		} else if (path == '/meal-debit-system/loginRegister.php' || path == '/meal-debit-system/login.php' || path == '/meal-debit-system/register.php') {
+		} else if (path == 'loginRegister.php' || path == 'login.php' || path == 'register.php') {
 			document.getElementById("navLogin").id = 'active';
 		}
 		

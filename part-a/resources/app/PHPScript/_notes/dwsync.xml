@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="addEmployee.php" server="C:/wamp64/www/meal-debit-system/" local="131985875654217497" remote="131985875650000000" Dst="0" />
+<file name="addItemToTable.php" server="C:/wamp64/www/meal-debit-system/" local="131985876110307520" remote="131985876110000000" Dst="0" />
+<file name="addMenu.php" server="C:/wamp64/www/meal-debit-system/" local="131985876296090724" remote="131985876290000000" Dst="0" />
+<file name="addTransaction.php" server="C:/wamp64/www/meal-debit-system/" local="131987859675733905" remote="131987859670000000" Dst="0" />
+<file name="back.php" server="C:/wamp64/www/meal-debit-system/" local="131979106420000000" remote="131979106420000000" Dst="0" />
+<file name="canceltx-action.php" server="C:/wamp64/www/meal-debit-system/" local="131987859620008905" remote="131987859620000000" Dst="0" />
+<file name="canceltx.php" server="C:/wamp64/www/meal-debit-system/" local="131985861609522396" remote="131985861600000000" Dst="0" />
+<file name="conn.php" server="C:/wamp64/www/meal-debit-system/" local="131985853554923140" remote="131985853550000000" Dst="0" />
+<file name="deleteCustomer.php" server="C:/wamp64/www/meal-debit-system/" local="131985923265517201" remote="131985923260000000" Dst="0" />
+<file name="deleteEmployee.php" server="C:/wamp64/www/meal-debit-system/" local="131985876785274382" remote="131985876780000000" Dst="0" />
+<file name="deleteItem.php" server="C:/wamp64/www/meal-debit-system/" local="131985876949966096" remote="131985876940000000" Dst="0" />
+<file name="editEmployee.php" server="C:/wamp64/www/meal-debit-system/" local="131985877232308192" remote="131985877230000000" Dst="0" />
+<file name="editMenu.php" server="C:/wamp64/www/meal-debit-system/" local="131985877399197748" remote="131985877390000000" Dst="0" />
+<file name="fetchCustomerDetails.php" server="C:/wamp64/www/meal-debit-system/" local="131985921575018310" remote="131985921570000000" Dst="0" />
+<file name="fetchEmployeeDetails.php" server="C:/wamp64/www/meal-debit-system/" local="131985913356879768" remote="131985913350000000" Dst="0" />
+<file name="fetchItemDetails.php" server="C:/wamp64/www/meal-debit-system/" local="131985913400980548" remote="131985913400000000" Dst="0" />
+<file name="generateReport.php" server="C:/wamp64/www/meal-debit-system/" local="131987713054153375" remote="131987713050000000" Dst="0" />
+<file name="login-action.php" server="C:/wamp64/www/meal-debit-system/" local="131985912410014313" remote="131985912410000000" Dst="0" />
+<file name="logout-action.php" server="C:/wamp64/www/meal-debit-system/" local="131974699120000000" remote="131974699120000000" Dst="0" />
+<file name="makePayment.php" server="C:/wamp64/www/meal-debit-system/" local="131985900421771177" remote="131985900420000000" Dst="0" />
+<file name="selectMax.php" server="C:/wamp64/www/meal-debit-system/" local="131985906451192881" remote="131985906450000000" Dst="0" />
+<file name="transaction.php" server="C:/wamp64/www/meal-debit-system/" local="131982606280000000" remote="131982606280000000" Dst="0" />
+<file name="updateCustomerBal.php" server="C:/wamp64/www/meal-debit-system/" local="131985927882624232" remote="131985927880000000" Dst="0" />
+</dwsync>
